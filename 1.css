@@ -1,0 +1,49 @@
+    body{
+        font-size: 12px;
+    }
+    ul,li{
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .b_nav_wrap{
+        width: 100%;
+        background: #01204f;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .b_nav{
+        width: 1000px;
+        color: #fff;
+        font-weight: 600;
+        font-size: 14px;
+        font-family: arial, 'Hiragino Sans GB', 'Microsoft Yahei', 微软雅黑, 宋体, Tahoma, Arial, Helvetica, STHeiti;
+        position: relative;
+        margin: 0 auto;
+    }
+    .b_nav_li{
+        display: inline-block;
+        height: 100%;
+        padding: 0 10px;
+        cursor: pointer;
+        position: relative;
+    }
+    .b_nav_li_active{
+        background: #cc0000;
+    }
+    .ani_red{
+        position: absolute;
+        left: 0;
+        background: #cc0000;
+        height: 40px;
+        padding: 0;
+        transition: left 0.3s,width 0.3s;
+        transition-timing-function: ease-in-out;
+        display: none;
+    }
+
+    .about{
+        margin-top: 50px;
+    }
